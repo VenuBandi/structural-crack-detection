@@ -1,0 +1,24 @@
+# Dataset (too large — download from SDNET2018 link in README)
+SDNET2018/
+*.jpg
+*.jpeg
+*.png
+*.tif
+
+# Model weights
+*.pth
+*.pt
+*.h5
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
