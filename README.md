@@ -30,6 +30,13 @@ Undetected cracks in infrastructure — bridges, roads, buildings — can lead t
 
 ~56,092 images total. Heavy class imbalance (5.6:1) addressed using **class-weighted cross-entropy loss**.
 
+### Sample Images from Dataset
+![Sample Crack Images](reports/images/sample_crack_images.png)
+![Sample No-Crack Images](reports/images/sample_nocrack_images.png)
+
+### Class Distribution
+![Class Distribution](reports/images/class_distribution.png)
+
 ---
 
 ## Pipeline
@@ -74,6 +81,35 @@ SDNET2018 Images (56,092)
 | Tuned EfficientNet-B0 | 0.9166 | 0.680 | **0.848** | 0.754 |
 
 **Winner: EfficientNet-B0** — highest accuracy and F1. Tuned version improves recall (fewer missed cracks) at a slight precision cost.
+
+### Model Comparison — Test Accuracy
+![Model Comparison](reports/images/model_comparison_accuracy.png)
+
+### ROC-AUC Comparison (All 4 Models)
+![ROC AUC](reports/images/roc_auc_comparison.png)
+
+---
+
+## Training Curves
+
+### ResNet50
+![ResNet50 Training](reports/images/resnet50_training_curves.png)
+
+### DenseNet121
+![DenseNet121 Training](reports/images/densenet121_training_curves.png)
+
+---
+
+## Confusion Matrices
+
+### ResNet50
+![ResNet50 Confusion Matrix](reports/images/resnet50_confusion_matrix.png)
+
+### DenseNet121
+![DenseNet121 Confusion Matrix](reports/images/densenet121_confusion_matrix.png)
+
+### EfficientNet-B0
+![EfficientNet Confusion Matrix](reports/images/efficientnet_confusion_matrix.png)
 
 ---
 
