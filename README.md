@@ -5,6 +5,8 @@
 Automated inspection of concrete infrastructure using deep learning.<br>
 EfficientNet-B0 achieves **92.5% accuracy** and **0.848 recall** on 56,092 labeled images across bridges, pavements, and walls.
 
+[![GitHub stars](https://img.shields.io/github/stars/VenuBandi/structural-crack-detection?style=for-the-badge&color=yellow)](https://github.com/VenuBandi/structural-crack-detection/stargazers)
+
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org)
 [![Dataset](https://img.shields.io/badge/SDNET2018-56k%20images-green)](https://digitalcommons.usu.edu/all_datasets/48/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -91,3 +93,11 @@ Download [SDNET2018](https://digitalcommons.usu.edu/all_datasets/48/) and extrac
 ## License
 
 MIT
+
+---
+
+<div align="center">
+
+If this project was useful or interesting, a ⭐ helps others find it.
+
+</div>
