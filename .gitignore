@@ -2,8 +2,10 @@
 SDNET2018/
 *.jpg
 *.jpeg
-*.png
 *.tif
+
+# Allow result chart images in reports/
+!reports/images/*.png
 
 # Model weights
 *.pth
